@@ -391,7 +391,7 @@ class NeighborAgent:
         self,
         interference_threshold: float = 0.3,
         verbose: bool = False,
-        llm_model: str = "exaone3.5:7.8b"
+        llm_model: str = "gemma3:27b"
     ):
         self.interference_threshold = interference_threshold
         self.verbose = verbose
@@ -611,7 +611,7 @@ SINR 분석 결과와 이웃셀 간섭 분석 결과를 종합하여 최적화 �
         positive_weight: float = 0.6,
         negative_weight: float = 0.4,
         verbose: bool = False,
-        llm_model: str = "exaone3.5:7.8b"
+        llm_model: str = "gemma3:27b"
     ):
         self.positive_weight = positive_weight
         self.negative_weight = negative_weight

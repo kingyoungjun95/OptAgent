@@ -27,7 +27,7 @@ class OptimizationPipeline:
         positive_weight: float = 0.6,
         negative_weight: float = 0.4,
         verbose: bool = False,
-        llm_model: str = "exaone3.5:7.8b"
+        llm_model: str = "gemma3:27b"
     ):
         self.verbose = verbose
         self.llm_model = llm_model
